@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import StatCard from '@/components/StatCard.vue'
+import UserTable from '@/components/UserTable.vue'
+import { usersList } from '@/const/user.const'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faUsers, faUserPlus, faHandHoldingDollar } from '@fortawesome/free-solid-svg-icons'
 </script>
@@ -32,4 +34,5 @@ import { faUsers, faUserPlus, faHandHoldingDollar } from '@fortawesome/free-soli
       <template #value> 12 </template>
     </StatCard>
   </section>
+  <UserTable :users="usersList" />
 </template>

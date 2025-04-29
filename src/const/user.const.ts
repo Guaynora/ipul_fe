@@ -1,0 +1,42 @@
+export const usersList = [
+  {
+    firstName: 'María',
+    lastName: 'González',
+    email: 'maria.gonzalez@email.com',
+    phone: '555-1234',
+    ministry: 'Alabanza',
+    avatar: '/api/placeholder/32/32',
+  },
+  {
+    firstName: 'Juan',
+    lastName: 'Pérez',
+    email: 'juan.perez@email.com',
+    phone: '555-5678',
+    ministry: 'Jóvenes',
+    avatar: '/api/placeholder/32/32',
+  },
+  {
+    firstName: 'Luisa',
+    lastName: 'Martínez',
+    email: 'luisa.martinez@email.com',
+    phone: '555-9101',
+    ministry: 'Damas',
+    avatar: '/api/placeholder/32/32',
+  },
+  {
+    firstName: 'Roberto',
+    lastName: 'Sánchez',
+    email: 'roberto.sanchez@email.com',
+    phone: '555-1213',
+    ministry: 'Enseñanza',
+    avatar: '/api/placeholder/32/32',
+  },
+  {
+    firstName: 'Ana',
+    lastName: 'Rodríguez',
+    email: 'ana.rodriguez@email.com',
+    phone: '555-1415',
+    ministry: 'Oración',
+    avatar: '/api/placeholder/32/32',
+  },
+]
